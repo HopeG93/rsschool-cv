@@ -1,5 +1,6 @@
 # Nadzezhda Goroshko
 _Phone number: +375295693559_
+
 _Current job: Software Resting Engineer_
 ## Skills
 * Experience with Mobile or Web testing 
@@ -14,8 +15,9 @@ Software Testing Engineer; 2018 up to Present
 
 EPAM systems
 ## Education
-* College: Lingvohumanitarian college (2013 - 2016)
 
+* College: Lingvohumanitarian college (2013 - 2016)
 * University: Minsk State Linguistic University (2016 - 2018)
 ## English
+
 * Level: Advanced
