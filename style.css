@@ -1,0 +1,15 @@
+.wrapper {
+    font-size: 150%;
+}
+
+.wrapper > div {
+    font-size: 150%;
+}
+
+.wrapper > div > p {
+    font-size: 150%;
+    width: 100px;
+    margin: 0 auto;
+    border: 20px solid red;
+    padding: 20%;
+}
