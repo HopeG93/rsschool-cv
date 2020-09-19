@@ -2,24 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
     <style>
-        #image {
-            display: none;
+        header {
+          padding: 30px;
+          text-align: center;
+          font-size: 30px;
+          color: rgb(220, 235, 15);
         }
-    </style>
+
+        body {
+           background-image: url('workstation-405768_640.jpg');
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+           display: -webkit-flex;
+           display: flex;
+        }
+
+        article {
+           -webkit-flex: 3;
+           -ms-flex: 3;
+            flex: 3;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            section {
+               -webkit-flex-direction: column;
+               flex-direction: column;
+            }
+        }
+
+        .contact {
+            text-align: center;
+            color: green;
+        }
+
+        </style>
 </head>
-<body style="background-color:rgb(231, 116, 202);">
-    <div class="wrapper"> 
-        <h3 style="color: rgb(58, 11, 145);text-align:center;">Nadezhda Goroshko</h3>
-    </div>
-    <img id="photo" src="IMG_0723.JPG" width="100" alt="100">
-    <p style="color: chartreuse; text-align:center; font-family: Georgia, 'Times New Roman', Times, serif;">Phone number: +375295693559</p>
-    <p style="color: chartreuse; text-align:center; font-family: Georgia, 'Times New Roman', Times, serif;">Current job: Software Testing Engineer</p>
-    <h3 style="text-align:center;">Skills</h3>
-    <ul style="text-align:center;">
+<body style="position: relative;">
+
+    <header>Nadezhda Goroshko</header>
+    
+    <img id="photo" src="IMG_0723.JPG" width="150" height="200" alt="Photo">
+
+    <div class="contact"><strong>Phone number: +375295693559 <br>
+        Current job: Software Testing Engineer</strong>
+     </div>
+
+    <article>       
+    <h1>Skills</h1>
+
+    <ul>
 <li>Experience with Mobile or Web testing </li>
 <li>Experience in creation of test plans, test scenarios and test cases</li> 
 <li>Familiar with QA processes and practices in an Agile environment </li>
@@ -28,9 +77,21 @@
 <li>Have an experience in mobile application testing (iOS and Android)</li>
 <li>Finding and reporting product bugs; verifying bug-fixes</li>
     </ul>
-    <div style="text-align:center;padding:20px;" style="text-align:center;">
-    <h3 style="color:rgb(53, 138, 14);">Work Experience</h3>
+
+        <h3>Work Experience</h3>
     <p>Software Testing Engineer; 2018 up to Present<br>EPAM systems</p>
-    </div>
+   
+        <h3>Education</h3>
+    <p>
+        <ul>
+            <li>College: Lingvohumanitarian college (2013 - 2016)</li>
+            <li>University: Minsk State Linguistic University (2016 - 2018)</li>
+        </ul>
+    </p>
+            <h3>English</h3>
+            <p>Level: Advanced</p>
+        </article>
+</section>
+
 </body>
 </html>
