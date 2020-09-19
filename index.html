@@ -34,13 +34,6 @@
             text-align: center;
         }
 
-        footer {
-            background-color: #777;
-            padding: 10px;
-            text-align: center;
-            color: white;
-        }
-
         @media (max-width: 600px) {
             section {
                -webkit-flex-direction: column;
@@ -53,44 +46,57 @@
             color: green;
         }
 
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            vertical-align: middle;
+        }
         </style>
 </head>
+
 <body style="position: relative;">
-
-    <header>Nadezhda Goroshko</header>
     
-    <img id="photo" src="IMG_0723.JPG" width="150" height="200" alt="Photo">
+      <header>Nadezhda Goroshko</header> 
 
+      <img class="center" src="IMG_0723.JPG" width="150" height="auto" alt="Photo">
+
+      <section class="center">
     <div class="contact"><strong>Phone number: +375295693559 <br>
         Current job: Software Testing Engineer</strong>
      </div>
+    </section>
 
-    <article>       
-    <h1>Skills</h1>
+    <article>         
+     <h3>Skills</h3>
+      <ul>
+      <li>Experience with Mobile or Web testing </li>
+      <li>Experience in creation of test plans, test scenarios and test cases</li> 
+      <li>Familiar with QA processes and practices in an Agile environment </li>
+      <li>Analyzing product's requirements and specifications</li>
+      <li>Strong communication skills</li>
+      <li>Have an experience in mobile application testing (iOS and Android)</li>
+      <li>Finding and reporting product bugs; verifying bug-fixes</li>
+      </ul>
+    </article>
 
-    <ul>
-<li>Experience with Mobile or Web testing </li>
-<li>Experience in creation of test plans, test scenarios and test cases</li> 
-<li>Familiar with QA processes and practices in an Agile environment </li>
-<li>Analyzing product's requirements and specifications</li>
-<li>Strong communication skills</li>
-<li>Have an experience in mobile application testing (iOS and Android)</li>
-<li>Finding and reporting product bugs; verifying bug-fixes</li>
-    </ul>
+    <article>
+      <h3>Work Experience</h3>
+        <p>Software Testing Engineer; 2018 up to Present<br>EPAM systems</p>
+    </article>
 
-        <h3>Work Experience</h3>
-    <p>Software Testing Engineer; 2018 up to Present<br>EPAM systems</p>
-   
-        <h3>Education</h3>
-    <p>
-        <ul>
+    <article>
+       <h3>Education</h3>
+         <ul>
             <li>College: Lingvohumanitarian college (2013 - 2016)</li>
             <li>University: Minsk State Linguistic University (2016 - 2018)</li>
         </ul>
-    </p>
-            <h3>English</h3>
-            <p>Level: Advanced</p>
-        </article>
+    </article>
+
+    <article>
+       <h3>English</h3>
+          <p>Level: Advanced</p>
+    </article>
 </section>
 
 </body>
